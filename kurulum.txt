@@ -1,0 +1,3 @@
+//Kurulum
+//init.sqf Dosyası İçine Aşağıdaki Kodu yazınız.
+execVM "holster.sqf";
