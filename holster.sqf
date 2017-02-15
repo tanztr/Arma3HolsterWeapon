@@ -9,7 +9,7 @@ fn_holsterAnimation =
 {
     _unit = _this select 0;
     _anim = _this select 1;
-    _unit switchMove _anim;// PLAY ANIMATION JUMP
+    _unit switchMove _anim;
     //_unit playMovenow _anim;
 };
 
@@ -21,8 +21,8 @@ holsterkeyDown=
      if ((_this select 1)  == 35) then {
 		if  (player == vehicle player  and player getvariable ["holster",true]) then  {
    
-		player setvariable["holsterkey",true];// RESTE DOUBLE holsterkey TAP    
-		player setvariable ["holster",false];// DISABLE holster
+		player setvariable["holsterkey",true];    
+		player setvariable ["holster",false];
 
 		if (currentWeapon player != "") then
 		{
